@@ -1,0 +1,40 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  
+ flex-direction: column;
+ 
+  justify-content: center;
+  flex-wrap: nowrap;
+    background-image: url("LandingStock_image_38.jpg");
+    
+    background-position: center;
+    background-size: cover;
+ 
+  color: pink;
+}
+
+.bg {
+
+ align-self: center;
+
+}
+
+button {
+	width: auto;
+	 align-self: center;
+
+}
+
+button:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
